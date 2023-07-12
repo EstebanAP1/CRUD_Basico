@@ -1,0 +1,109 @@
+body {
+    background-color: rebeccapurple;
+}
+#login_main {
+    margin: auto;
+    margin-top: 5rem;
+    width: 70%;
+    height: 30rem;
+    display: inline-flex;
+    background-color: rgb(174, 107, 236);
+}
+#login_btn {
+    font-weight: 550;
+    background-color: blueviolet;
+    color: black;
+}
+#login_btn:hover {
+    border: 0.1rem blueviolet solid;
+    background-color: rgb(174, 107, 236);
+}
+#head_div {
+    width: 85%;
+    height: 5rem;
+    margin: auto;
+    margin-top: 1rem;
+    border: 1px black solid;
+    border-radius: 0.5rem;
+    align-items: center;
+    display: flex;
+    background-color: blueviolet;
+}
+#logo_head {
+    height: 3rem;
+    margin: 0.5rem;
+    border: 0.15rem black solid;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.container h3 {
+    color: black;
+    margin: 0px;
+}
+#logout_btn {
+    font-weight: 550;
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+#logout_btn:hover {
+    border: 0.1rem rgb(0, 0, 0) solid;
+}
+main {
+    width: 100%;
+}
+#create_equipo {
+    font-weight: 550;
+    background-color: blueviolet;
+    color: black;
+}
+#create_equipo:hover {
+    border: 0.1rem blueviolet solid;
+    background-color: rgba(0, 0, 0, 0);
+}
+#create_usuario {
+    font-weight: 550;
+    background-color: blueviolet;
+    color: black;
+}
+#create_usuario:hover {
+    border: 0.1rem blueviolet solid;
+    background-color: rgba(0, 0, 0, 0);
+}
+#table_main {
+    width: 93%;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(174, 107, 236);
+}
+.form_main {
+    width: 93%;
+    height: auto;
+    padding: 3rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+    background-color: rgb(174, 107, 236);
+}
+.form_btn {
+    font-weight: 550;
+    background-color: blueviolet;
+    color: black;
+}
+.form_btn:hover {
+    border: 0.1rem blueviolet solid;
+    background-color: rgba(0, 0, 0, 0);
+}
+.onlyRead {
+    background-color: rgb(174, 174, 174);
+    border: 0.1rem rgb(174, 174, 174) solid;
+}
+.onlyRead:focus {
+    background-color: rgb(174, 174, 174);
+    border: 0.1rem rgb(174, 174, 174) solid;
+}

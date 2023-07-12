@@ -1,0 +1,52 @@
+CREATE TABLE procesadores (
+id_proc INT(11) AUTO_INCREMENT,
+proc VARCHAR(30) NOT NULL,
+PRIMARY KEY (id_proc)
+);
+
+CREATE TABLE discos (
+id_disco INT(11) AUTO_INCREMENT NOT NULL,
+disco VARCHAR(30) NOT NULL,
+PRIMARY KEY (id_disco) 
+);
+
+CREATE TABLE ram (
+id_ram INT(11) AUTO_INCREMENT NOT NULL,
+ram VARCHAR(30) NOT NULL,
+PRIMARY KEY (id_ram)
+);
+
+CREATE TABLE departamentos (
+id_depa VARCHAR(30) NOT NULL,
+depa VARCHAR(30) NOT NULL,
+PRIMARY KEY (id_depa)
+);
+
+CREATE TABLE municipios (
+id_muni VARCHAR(30) NOT NULL,
+muni VARCHAR(30) NOT NULL,
+PRIMARY KEY(id_muni)
+);
+
+CREATE TABLE equipos (
+id_equipo INT(11) AUTO_INCREMENT NOT NULL,
+id_usuario INT(11) NOT NULL,
+`serial` VARCHAR(30) NOT NULL,
+id_proc INT(11) NOT NULL,
+id_disco INT(11) NOT NULL,
+id_ram INT(11) NOT NULL,
+monitor VARCHAR(30) NOT NULL,
+teclado VARCHAR(30) NOT NULL,
+mouse VARCHAR(30) NOT NULL,
+PRIMARY KEY (id_equipo)
+);
+
+CREATE TABLE usuarios (
+id_usuario INT(11) AUTO_INCREMENT NOT NULL,
+cedula INT(11) NOT NULL,
+nombre VARCHAR(30) NOT NULL,
+apellido VARCHAR(30) NOT NULL,
+id_depa VARCHAR(30) NOT NULL,
+id_muni VARCHAR(30) NOT NULL,
+PRIMARY KEY(id_usuario)
+);
